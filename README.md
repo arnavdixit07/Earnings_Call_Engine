@@ -35,9 +35,8 @@ DATASET:
     → SEC EDGAR full-text search (EDGAR-FULL-TEXT API)
     → Motley Fool / Seeking Alpha scrapers
 
-AUTHOR: [Your Name]
-COURSE: [Your Course]
-DATE:   2025
+AUTHOR: Arnav Dikshit
+DATE:   2026
 
 RUN:
     pip install -r requirements.txt
