@@ -1,8 +1,6 @@
 
-================================================================================
   EARNINGS CALL INTELLIGENCE ENGINE
   Predicting Post-Earnings Stock Movement from Transcript NLP Signals
-================================================================================
 
 PROBLEM STATEMENT:
     Earnings calls contain rich linguistic signals — executive hedging, sentiment
@@ -43,4 +41,4 @@ RUN:
     python main.py --mode train      # Train & evaluate full pipeline
     python main.py --mode api        # Launch FastAPI inference server
     python main.py --mode demo       # Quick demo on sample transcripts
-================================================================================
+
