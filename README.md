@@ -12,18 +12,17 @@ PROBLEM STATEMENT:
     Refinitiv Eikon). This pipeline replicates that capability using open-source ML.
 
 MARKET-STANDARD ML ENGINEERING TECHNIQUES USED:
-    ┌─────────────────────────────────────────────────────────────────────┐
-    │  HuggingFace Transformers  → FinBERT financial sentiment embeddings │
-    │  Zero-Shot Classification  → Tone labeling without fine-tuning      │
-    │  TF-IDF + Linguistic Feats → Handcrafted NLP feature engineering    │
-    │  XGBoost                   → Gradient boosting (quant industry std) │
-    │  SHAP                      → Model explainability (enterprise req.)  │
-    │  Optuna                    → Bayesian hyperparameter optimization    │
-    │  imbalanced-learn (SMOTE)  → Class imbalance correction             │
-    │  MLflow                    → Experiment tracking & model registry   │
-    │  FastAPI + Pydantic        → Production REST API serving            │
-    │  scikit-learn Pipelines    → Reproducible preprocessing             │
-    └─────────────────────────────────────────────────────────────────────┘
+    
+      HuggingFace Transformers  → FinBERT financial sentiment embeddings 
+      Zero-Shot Classification  → Tone labeling without fine-tuning      
+      TF-IDF + Linguistic Feats → Handcrafted NLP feature engineering    
+      XGBoost                   → Gradient boosting (quant industry std) 
+      SHAP                      → Model explainability (enterprise req.)  
+      Optuna                    → Bayesian hyperparameter optimization    
+      imbalanced-learn (SMOTE)  → Class imbalance correction             
+      MLflow                    → Experiment tracking & model registry  
+      FastAPI + Pydantic        → Production REST API serving            
+      scikit-learn Pipelines    → Reproducible preprocessing            
 
 DATASET:
     Synthetic but statistically realistic earnings call transcripts generated
